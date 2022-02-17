@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  width: 120px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+.header {
+  margin: 10px 15px 120px 70%;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-section {
+  margin: 0 auto 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.input {
+  width: 650px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 1px solid;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+.input:focus {
+  outline: none;
+}
+.input::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+}
+.link-holder {
+  display: flex;
+  width: 330px;
+  margin: 0 auto 25px;
+  justify-content: space-between;
+}
+.link-holder a {
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+}
+.link-holder a:hover {
+  border: 1px solid;
+}
+.info-text {
+  display: flex;
+  width: 27%;
+  font-size: 15px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.info-text > a {
+  font-size: 15px;
+}
+.footer {
+  width: 100vw;
+}
+.footer p {
+  padding: 15px;
+}
+.footer-links-holder > div > a {
+  margin-right: 30px;
+}
+.footer-links-holder {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid;
+  padding: 10px;
+}
+.footer-links-holder > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: fit-content;
+}
